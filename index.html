@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Web Game Development II - Framework w/ States</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <canvas id="gameCanvas" width="1024" height="768"></canvas>
+
+    <!-- Load order matters (utilities -> entities -> managers -> states -> main) -->
+    <script src="js/Input.js"></script>
+    <script src="js/MathUtil.js"></script>
+    <script src="js/Collision.js"></script>
+
+    <script src="js/GameObject.js"></script>
+    <script src="js/PlayerObject.js"></script>
+    <script src="js/OtherObjects.js"></script>
+
+    <script src="js/State.js"></script>
+    <script src="js/StateManager.js"></script>
+
+    <script src="js/TitleState.js"></script>
+    <script src="js/GameState.js"></script>
+    <script src="js/PauseState.js"></script>
+    <script src="js/EndState.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
