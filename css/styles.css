@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+    background: radial-gradient(circle at top, #222 0, #05070c 60%, #020308 100%);
+    color: #e8ecf4;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-wrapper {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+#gameCanvas {
+    background: #000;
+    border: 2px solid #4af;
+    box-shadow: 0 0 24px rgba(0, 128, 255, 0.4);
+    image-rendering: auto; 
+}
+
+.hint {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #9aa7c0;
+}
